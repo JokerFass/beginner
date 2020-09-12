@@ -15,6 +15,10 @@
         <module>beginproject-order</module>
         <module>beginproject-product</module>
         <module>beginproject-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>beginproject-common</module>
+        <module>beginproject-gateway</module>
     </modules>
 
 </project>
