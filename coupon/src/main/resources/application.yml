@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/project_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    driver-class-name:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: coupon
+  zipkin:
+    base-url: http://localhost:9411
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 7000
+
+
+
+

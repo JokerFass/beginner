@@ -10,15 +10,16 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>beginproject-coupon</module>
-        <module>beginproject-member</module>
-        <module>beginproject-order</module>
-        <module>beginproject-product</module>
-        <module>beginproject-ware</module>
+        <module>coupon</module>
+        <module>member</module>
+        <module>order</module>
+        <module>product</module>
+        <module>ware</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
-        <module>beginproject-common</module>
-        <module>beginproject-gateway</module>
+        <module>common</module>
+        <module>gateway</module>
+        <module>nacos</module>
     </modules>
 
 </project>
